@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import '../controller/bottom_navv.dart';
+import '../controller/bottom_nav_cntrl.dart';
 
-class FirstPage extends StatelessWidget {
-  const FirstPage({super.key});
+class BottomNavScreen extends StatelessWidget {
+  const BottomNavScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,8 +17,7 @@ class FirstPage extends StatelessWidget {
         decoration: BoxDecoration(borderRadius: BorderRadius.circular(25)),
         child: BottomNavigationBar(
           type: BottomNavigationBarType.shifting,
-          currentIndex:
-              Provider.of<BottomNavController>(context).selectedIndex,
+          currentIndex: Provider.of<BottomNavController>(context).selectedIndex,
           onTap: Provider.of<BottomNavController>(context, listen: false)
               .onItemTap,
           items: const [

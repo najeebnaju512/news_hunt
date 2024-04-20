@@ -9,7 +9,6 @@ class CategoryScreen extends StatelessWidget {
   Future<void> fetchData(BuildContext context) async {
     Provider.of<CategoryController>(context, listen: false).fethchData();
   }
-
   @override
   Widget build(BuildContext context) {
     fetchData(context);
