@@ -5,7 +5,7 @@ import 'controller/bottom_nav_cntrl.dart';
 import 'controller/catogary_cntrl.dart';
 import 'controller/home_screeCntrl.dart';
 import 'controller/search_screenCntrl.dart';
-import 'view/bottom_nav.dart';
+import 'view/BottomNav/bottom_nav.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());

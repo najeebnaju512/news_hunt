@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import '../controller/bottom_nav_cntrl.dart';
+import '../../controller/bottom_nav_cntrl.dart';
 
 class BottomNavScreen extends StatelessWidget {
   const BottomNavScreen({super.key});
