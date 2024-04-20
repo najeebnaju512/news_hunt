@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:provider/provider.dart';
-import '../../controller/home_screeCntrl.dart';
 
 class NewsCard extends StatelessWidget {
   const NewsCard(
